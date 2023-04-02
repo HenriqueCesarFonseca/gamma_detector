@@ -1,4 +1,4 @@
-![logo](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/atomo_novo.png)
+![logo](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/radiacao_1.png)
 
 # DETECCÇÃO DE RADIAÇÃO GAMA UTILIZANDO WEBCAM
 
