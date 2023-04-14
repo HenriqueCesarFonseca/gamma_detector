@@ -6,8 +6,10 @@
 #include "DetectaRad.h"
 
 
+
 int main() {
 	system("CLS");
+	system("CD %HOMEPATH%");
 	setlocale(LC_ALL, "Portuguese");
 	DetectaRad* DR = new DetectaRad;
 	//int escolhe_resolucao(int n, int& largura, int& altura, int matriz_resolucoes_detectadas[6][2]);
@@ -20,6 +22,11 @@ int main() {
 	std::vector<int> cameras_detectadas;
 	std::string nome_arquivo_pontos = "todos_pontos_detectados.txt";
 	std::string diretorio = "\\DetectaRadiacao";
+	
+	
+
+	
+	
 
 	std::cout << "Programa DETECTA RADIACAO iniciando ... \n";
 

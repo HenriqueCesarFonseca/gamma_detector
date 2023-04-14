@@ -7,11 +7,14 @@
 
 DetectaRad::DetectaRad() {
 	EstruturaConfig.config_limiar_cinza_deteccao = this->limiar_nivel_cinza_para_deteccao;
-	EstruturaConfig.config_limiar_webcam_escuro  = this->limiar_nivel_cinza_para_escuro;
+	EstruturaConfig.config_limiar_webcam_escuro = this->limiar_nivel_cinza_para_escuro;
+	
 	if (!_getcwd(PATH_DIR_INSTALADO, sizeof(PATH_DIR_INSTALADO)))
 	{
 		std::cout << "\nERRO: NÃO FOI POSSÍVEL OBTER O DIRETÓRIO" << "\n";
 	}
+	//PATH_DIR_INSTALADO = "C:\\";
+	std::cout << "\nPATH_DIR_INSTALADO = " << PATH_DIR_INSTALADO << "\n";
 }
 
 
@@ -534,14 +537,17 @@ void DetectaRad::mostra_variaveis_arq_config()
 
 void DetectaRad::cria_diretorio_base(std::string diretorio)
 {
-	std::string tmp_string(PATH_DIR_INSTALADO);
+	
+	//std::string tmp_string(PATH_DIR_INSTALADO); ALTERADO DIA 13-04-23
+	std::string tmp_string("C:\\");
+	
 	this->path_diretorio_base = tmp_string + diretorio;
 	int tamanho = std::strlen(path_diretorio_base.c_str()); //int tamanho = std::strlen(diretorio.c_str());
 	char criado[200] = "";
 	for (int i = 0; i < tamanho; i++) {
 		criado[i] = path_diretorio_base[i]; // criado[i] = diretorio[i];
 	}
-	
+	  
 	if (_mkdir(criado) == 0) {
 		std::cout << "\nDiretório: " << path_diretorio_base << "\n";
 		this->numero_do_experimento = 01;
@@ -619,20 +625,3 @@ void DetectaRad::atualiza_arquivo_config_limiar_nivel_cinza_escuro(int n) {
 	else file_conf_in.close();
 }
 
-/*
-	frame_gray.at<uchar>(0, 0) = 200;
-	frame_gray.at<uchar>(0, 1279) = 210 ;
-	frame_gray.at<uchar>(719, 0) = 220;
-	frame_gray.at<uchar>(719, 1279) = 230;
-
-	cv::imwrite("C:\\DetectaRadiacao\\img_teste.bmp", frame_gray);
-
-
-	std::cout << "coordenadas_xy[total_de_frames_detectados][0 1 2 3]" << std::endl;
-	std::cout << coordenadas_xy[total_de_frames_detectados][0] << std::endl;
-	std::cout << coordenadas_xy[total_de_frames_detectados][1] << std::endl;
-	std::cout << coordenadas_xy[total_de_frames_detectados][2] << std::endl;
-	std::cout << coordenadas_xy[total_de_frames_detectados][3] << std::endl;
-
-
-	*/
