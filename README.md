@@ -92,7 +92,7 @@ A Webcam é desmontada para retirar a lente.
 
 ![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20DESMONTADA.bmp)
 
-É passado fita isolante para evitar curto circuito ai fixar a câmera à lata com furo (furo para o sensor **CMOS**).
+É passado fita isolante para evitar curto circuito ao fixar a câmera à lata com furo (furo para o sensor **CMOS**).
 
 ![Webcam com fita isolante](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20COM%20FITA%20ISOLANTE.bmp)
 
