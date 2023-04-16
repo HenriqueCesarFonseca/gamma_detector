@@ -119,6 +119,22 @@ Finalizado a montagem do experimento.
 
  ### **Download e Instalação**
 
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+
+
 
 ### **Utilizando o software DetectaRad**
 
