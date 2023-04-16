@@ -119,19 +119,27 @@ Finalizado a montagem do experimento.
 
  ### **Download e Instalação**
 
-![]()
+Baixe os arquivos ***DetectaRad.msi*** e ***setup.exe***.
+![Arquivo para download](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DOWNLOAD%201.bmp)
 
-![]()
+Após o download clique no arquivo setup.exe para executar a instalação.
+![Instalador](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DOWNLOAD%202.png)
 
-![]()
+Clique em ***Avançar***.
+![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%201.png)
 
-![]()
+Clique em ***Avançar***.
+![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%202.png)
 
-![]()
+Clique em ***Avançar***.
+![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%203.png)
 
-![]()
+Clique em ***Fechar***.
+![Fechar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%204.png)
 
-![]()
+Na opção ***Aplicativos instalados*** do Windows o programa pode ser removido caso queira.
+![Aplicativos instalados](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/APLICATIVOS%20INSTALADOS.png)
+
 
 
 
