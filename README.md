@@ -33,16 +33,16 @@ O software DetectaRad foi desenvolvido para ser executado apenas no sistema oper
 
 Os pontos na janela **IMAGEM EM TEMPO REAL** aparecem e desaparecem rapidamente. Alguns pontos com intensidade mais fraca não podem ser visto pelo observador. A imagem abaixo (640 x 480) mostra um ponto bem visível detectado nas coordenadas (345;351). Como a imagem gerada segue o padrão da biblioteca OpenCV , a origem (0,0) situa-se no canto esquerdo superior.
 
-![Ponto bem visível](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/UM%20PONTO%20DETECTADO%20BEM%20VIS%C3%8DVEL%201.bmp)
+![Ponto bem visível](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/imagem_captada_3.bmp)
 
 
 A cada experimento um novo diretório é criado.
 
-![Diretórios criados]()
+![Diretórios criados](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DIRETORIO%20COM%20EXPERIMENTOS.png)
 
 Dentro de cada diretório são armazenados todos os frames em que foi detectada algum ponto de radiação.
 
-![Diretório do experimento]()
+![Diretório do experimento](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DIRETORIO%20DO%20EXPERIMENTO.png)
 
 O arquivo  ***todos_os_pontos_detectador.txt*** - gerado automaticamente ao final do programa - lista as coordenadas de todos os pontos detectados.
 
@@ -50,13 +50,13 @@ O arquivo  ***todos_os_pontos_detectador.txt*** - gerado automaticamente ao fina
 266:102		Nivel de cinza:  72		 Frame: 0
 506:248		Nivel de cinza:  59		 Frame: 1
 515:143		Nivel de cinza:  32		 Frame: 2
-88:260		       Nivel de cinza:  105		 Frame: 3
+88:260      Nivel de cinza:  105		 Frame: 3
 489:370		Nivel de cinza:  51		 Frame: 4
 511:107		Nivel de cinza:  72		 Frame: 5
-110:2		       Nivel de cinza:  33		 Frame: 6
-37:246		       Nivel de cinza:  33		 Frame: 7
+110:2	    Nivel de cinza:  33		 Frame: 6
+37:246		Nivel de cinza:  33		 Frame: 7
 111:303		Nivel de cinza:  111		 Frame: 8
-567:1		       Nivel de cinza:  126		 Frame: 9
+567:1		Nivel de cinza:  126		 Frame: 9
 544:461		Nivel de cinza:  77		 Frame: 10
 497:394		Nivel de cinza:  47		 Frame: 11
 115:359		Nivel de cinza:  114		 Frame: 12
@@ -69,7 +69,7 @@ A primeira linha corresponde ao primeiro frame capturado , a segunda linha ao se
 
 Desta forma podemos conferir utilizando o programa PAINT do Windows que realmente na coordenada (88;260) encontramos um ponto de detecção conforme mostrado na Figura abaixo.
 
-![Ponto visto do PAINT]()
+![Ponto visto do PAINT](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PONTO%20VISTO%20PELO%20PAINT%201.bmp)
 
 
 O parâmetro ***Nível de cinza*** corresponde à conversão do padrão **RGB** com diferentes intensidade para **Red**,**Green** e **Blue** convertidas para o padrão **GRAY** com um único nível de intensidade (o que facilita o software executar a busca por um ponto detectado).
