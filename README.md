@@ -4,7 +4,7 @@
 ![logo](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/radiacao_2.png)
 
 
-[Sobre]() | [Visão Geral do Projeto]() | [Montando o Detector]() | [Download e Instalação]() | [Utilizando o software DetectaRad]() | [Fonte de Radiação]()
+[Sobre](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Visão Geral do Projeto](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Montando o Detector](https://github.com/HenriqueCesarFonseca/gamma_detector#montando-o-detector) | [Download e Instalação](https://github.com/HenriqueCesarFonseca/gamma_detector#download-e-instala%C3%A7%C3%A3o) | [Utilizando o software DetectaRad](https://github.com/HenriqueCesarFonseca/gamma_detector#utilizando-o-software-detectarad) | [Fonte de Radiação]()
 
 
 
@@ -31,9 +31,11 @@ O software DetectaRad foi desenvolvido para ser executado apenas no sistema oper
 
 A webcam é colocada dentro de um recipiente fechado para evitar a entrada de luz.
 
+
+
 ![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL%20RESIZED%20640%20X%20480.bmp)
 
-Os pontos na janela **IMAGEM EM TEMPO REAL** aparecem e desaparecem rapidamente. Alguns pontos com intensidade mais fraca não podem ser visto pelo observador. A imagem abaixo (640 x 480) mostra um ponto bem visível detectado nas coordenadas (345;351). Como a imagem gerada segue o padrão da biblioteca OpenCV , a origem (0,0) situa-se no canto esquerdo superior.
+Os pontos na janela **IMAGEM EM TEMPO REAL** aparecem e desaparecem rapidamente. Alguns pontos com intensidade mais fraca não podem ser visto pelo observador. A imagem abaixo (640 x 480) mostra um ponto bem visível detectado nas coordenadas (88;260). Como a imagem gerada segue o padrão da biblioteca OpenCV , a origem (0,0) situa-se no canto esquerdo superior.
 
 ![Ponto bem visível](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/imagem_captada_3.bmp)
 
@@ -52,10 +54,10 @@ O arquivo  ***todos_os_pontos_detectador.txt*** - gerado automaticamente ao fina
 266:102		Nivel de cinza:  72		 Frame: 0
 506:248		Nivel de cinza:  59		 Frame: 1
 515:143		Nivel de cinza:  32		 Frame: 2
-88:260      Nivel de cinza:  105		 Frame: 3
+88:260           Nivel de cinza:  105		 Frame: 3
 489:370		Nivel de cinza:  51		 Frame: 4
 511:107		Nivel de cinza:  72		 Frame: 5
-110:2	    Nivel de cinza:  33		 Frame: 6
+110:2	        Nivel de cinza:  33		 Frame: 6
 37:246		Nivel de cinza:  33		 Frame: 7
 111:303		Nivel de cinza:  111		 Frame: 8
 567:1		Nivel de cinza:  126		 Frame: 9
@@ -74,7 +76,7 @@ Desta forma podemos conferir utilizando o programa PAINT do Windows que realment
 ![Ponto visto do PAINT](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PONTO%20VISTO%20PELO%20PAINT%201.bmp)
 
 
-O parâmetro ***Nível de cinza*** corresponde à conversão do padrão **RGB** com diferentes intensidade para **Red**,**Green** e **Blue** convertidas para o padrão **GRAY** com um único nível de intensidade (o que facilita o software executar a busca por um ponto detectado).
+O parâmetro **Nível de cinza** corresponde à conversão do padrão **RGB** com diferentes intensidade para **Red**,**Green** e **Blue** convertidas para o padrão **GRAY** com um único nível de intensidade (o que facilita o software executar a busca por um ponto detectado).
 
 
 
@@ -89,6 +91,12 @@ O parâmetro ***Nível de cinza*** corresponde à conversão do padrão **RGB** 
 
 
 ### **Utilizando o software DetectaRad**
+
+
+### **Fonte de Radiação**
+
+
+
 
 
 1
