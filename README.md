@@ -71,7 +71,7 @@ Total de pontos detectados: 13
 
 A primeira linha corresponde ao primeiro frame capturado , a segunda linha ao segundo frame e assim por diante.
 
-Desta forma podemos conferir utilizando o programa PAINT do Windows que realmente na coordenada (88;260) encontramos um ponto de detecção conforme mostrado na Figura abaixo.
+Desta forma podemos conferir utilizando o programa **PAINT** do Windows que realmente na **coordenada (88;260)**encontramos um ponto de detecção conforme mostrado na Figura abaixo.
 
 ![Ponto visto do PAINT](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PONTO%20VISTO%20PELO%20PAINT%201.bmp)
 
@@ -84,7 +84,21 @@ O parâmetro **Nível de cinza** corresponde à conversão do padrão **RGB** co
 
  ### **Montando o Detector**
 
+![Webcam escolhida](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20ESCOLHIDA.bmp)
 
+![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20DESMONTADA.bmp)
+
+![Webcam com fita isolante](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20COM%20FITA%20ISOLANTE.bmp)
+
+![Montagem 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%201.bmp)
+
+![Montagem 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%202.bmp)
+
+![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%203.bmp)
+
+![Montagem 4](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%204.bmp)
+
+![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL%20RESIZED%20640%20X%20480.bmp)
 
 
  ### **Download e Instalação**
