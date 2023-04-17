@@ -171,6 +171,7 @@ Capsula aberta.
 
 
 O Amerício-241 emite radiação alfa e gama.
+
 ![Equação decaimento americio](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/EQUA%C3%87%C3%83O.png)
 
 
