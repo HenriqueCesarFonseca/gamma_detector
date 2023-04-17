@@ -168,12 +168,12 @@ O software **DetectaRad** encontra todas a câmeras instaladas no computador. Se
 Escolha a resolução desejada.
 ![Menu 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PROGRAMA%201.png)
 
-Uma vez escolhido a resolução o software faz uma leitura de todos os pontos do sensor de imagem e devolve um histograma de todos os valores encontrados que corresponde ao **nível de cinza** onde o menor valor possível é 0 (totalmente escuro) e o valor máximo é 255 que corresponde ao branco. Estes valores servem de referência para a escolha do parâmetro ***Limiar de detecção*** que diz a partir de que valor será considerado uma detecção, valores abaixo deste limiar são ignorados.
+Uma vez escolhido a resolução (no exemplo foi escolhido o valor 5) o software faz uma leitura de todos os pontos do sensor de imagem e devolve um histograma de todos os valores de **nível de cinza** encontrados, onde o menor valor possível é **0** (totalmente escuro) e o valor máximo é **255** que corresponde ao branco. Estes valores servem de referência para a escolha do parâmetro ***Limiar de detecção*** que diz a partir de que valor será considerado uma detecção, valores abaixo deste limiar são ignorados.
 Tanto o ***Limiar de escuro*** quanto o ***Limiar de detecção*** são configuraveis antes de iniciar as detecções.
 
 ![Menu 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PROGRAMA%202.png)
 
-No exemplo acima a resolução é de 1280 x 800 pontos (pixels), o que dá um total de 1.024.000 pontos. Mesmos com a câmera no escuro nem todos os pontos apresentaram um valor de leitura 0 (totalmente escuro). Apresentaram o nível de cinza 1, 11688 pontos e apresentaram o nível de cinza 2, 4 pontos apenas.
+No exemplo acima a resolução escolhida foi de 1280 x 800 pontos (pixels), o que dá um total de 1.024.000 pontos. **Mesmos com a câmera no escuro nem todos os pontos apresentaram um valor de leitura 0 (totalmente escuro)**. Apresentaram o nível de cinza 1, 11688 pontos e apresentaram o nível de cinza 2, 4 pontos apenas.
 Somando os valores temos:
 ```
 1.012.308 + 11.688 + 4 = 1.024.000 pixels
