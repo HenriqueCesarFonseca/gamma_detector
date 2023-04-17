@@ -159,6 +159,13 @@ Um atalho é criado na área de trabalho.
 
 ### **Utilizando o software DetectaRad**
 
+Clique no atalho na área de trabalho.
+
+![Atalho](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/ATALHO%201.png)
+
+![Menu 1] ()
+
+![Menu 2] ()
 
 ### **Fonte de Radiação**
 
@@ -173,17 +180,6 @@ Capsula aberta.
 O Amerício-241 emite radiação alfa e gama.
 
 ![Equação decaimento americio](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/EQUA%C3%87%C3%83O.png)
-
-
-
-
-
-
-
-[Download](https://github.com/HenriqueCesarFonseca/curso_github#instru%C3%A7%C3%B5es-de-uso)  |  
-
-[Recomendações](https://github.com/HenriqueCesarFonseca/curso_github#recomenda%C3%A7%C3%B5es)
-
 
 
 
