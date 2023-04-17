@@ -4,7 +4,7 @@
 ![logo](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/radiacao_2.png)
 
 
-[Sobre](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Visão Geral do Projeto](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Montando o Detector](https://github.com/HenriqueCesarFonseca/gamma_detector#montando-o-detector) | [Download e Instalação](https://github.com/HenriqueCesarFonseca/gamma_detector#download-e-instala%C3%A7%C3%A3o) | [Utilizando o software DetectaRad](https://github.com/HenriqueCesarFonseca/gamma_detector#utilizando-o-software-detectarad) | [Fonte de Radiação]()
+[Sobre](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Visão Geral do Projeto](https://github.com/HenriqueCesarFonseca/gamma_detector#sobre-o-projeto) | [Montando o Detector](https://github.com/HenriqueCesarFonseca/gamma_detector#montando-o-detector) | [Download e Instalação](https://github.com/HenriqueCesarFonseca/gamma_detector#download-e-instala%C3%A7%C3%A3o) | [Utilizando o software DetectaRad](https://github.com/HenriqueCesarFonseca/gamma_detector#utilizando-o-software-detectarad) | [Fonte de Radiação](https://github.com/HenriqueCesarFonseca/gamma_detector#fonte-de-radia%C3%A7%C3%A3o)
 
 
 
@@ -162,43 +162,12 @@ Um atalho é criado na área de trabalho.
 
 ### **Fonte de Radiação**
 
+Capsula utilizada em detector de fumaça com Amerício-241.
+![Capsula fechada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAPSULA%20FECHADA.bmp)
 
 
-
-
-1
-
-2
-
-3
-
-4
-
-5
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Capsula aberta. O Amerício-241 emite radiação alfa e gama.
+![Capsula aberta](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAPSULA%20ABERTA.bmp)
 
 [Download](https://github.com/HenriqueCesarFonseca/curso_github#instru%C3%A7%C3%B5es-de-uso)  |  
 
