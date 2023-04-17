@@ -178,7 +178,13 @@ Somando os valores temos:
 ```
 1.012.308 + 11.688 + 4 = 1.024.000 pixels
 ```
+Para finalizar o software é só clicar com o mouse em qualquer das três janelas e apertar a tecla ***ESC*** do teclado.
 
+Uma vez finalizado o software os diretórios com os resultados estão localizados em:
+
+```
+C:\DetectaRadiacao
+```
 
 > Antes de iniciar o software, procure deixar a webcam no escuro.
 >
