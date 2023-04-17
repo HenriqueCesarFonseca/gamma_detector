@@ -131,12 +131,15 @@ Clique em ***Avançar***.
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%201.png)
 
 Clique em ***Avançar***.
+
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%202.png)
 
 Clique em ***Avançar***.
+
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%203.png)
 
 Clique em ***Fechar***.
+
 ![Fechar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%204.png)
 
 
