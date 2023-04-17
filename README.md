@@ -163,15 +163,21 @@ Clique no atalho na área de trabalho.
 
 ![Atalho](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/ATALHO%201.png)
 
-O software **DetectaRad** encontra todas a câmeras instaladas no computador. Se for um notebook a câmera 0 será a Webcam que já vem no notebook logo acima da tela. No exemplo abaixo mais duas câmeras (webcam) estão instaladas. O software seleciona automaticamente a primeira câmera que estiver no escuro. No exemplo as câmeras 1 e 2 estão no escuro.
+O software **DetectaRad** encontra todas a câmeras instaladas no computador. Se for um notebook a câmera 0 será a Webcam que já vem no notebook logo acima da tela. No exemplo abaixo mais duas câmeras (webcam) estão instaladas. O software seleciona automaticamente a primeira câmera que estiver no escuro. No exemplo as câmeras 1 e 2 estão no escuro. Cada webcam possui diferentes valores de resolução possíveis, o software testa e informa todas as resoluções possíveis para a câmera escolhida.
 
 Escolha a resolução desejada.
 ![Menu 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PROGRAMA%201.png)
 
-Uma vez escolhido a resolução o software faz uma leitura de todos os pontos do sensor de imagem de devolvel um histograma de todos os valores encontrados. O menor valor é 0 (totalmente escuro) e o valor máximo é 255 (corresponde ao maior brilho possível). Estes valores servem de referência para a escolha do parâmetro ***Limiar de detecção*** que diz a partir de que valor será considerado uma detecção, valores abaixo deste limiar são desconsiderados.
+Uma vez escolhido a resolução o software faz uma leitura de todos os pontos do sensor de imagem de devolve um histograma de todos os valores encontrados que corresponde ao nível de cinza onde o menor valor possível é 0 (totalmente escuro) e o valor máximo é 255 que corresponde ao branco. Estes valores servem de referência para a escolha do parâmetro ***Limiar de detecção*** que diz a partir de que valor será considerado uma detecção, valores abaixo deste limiar são desconsiderados.
 Tanto o ***Limiar de escuro*** quanto o ***Limiar de detecção*** são configuraveis antes de iniciar as detecções.
 
 ![Menu 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PROGRAMA%202.png)
+
+No exemplo acima a resolução é de 1280 x 800 pontos (pixels), o que dá um total de 1.024.000 pontos. Mesmos com a câmera no escuro nem todos os pontos apresentaram um valor de leitura 0 (totalmente escuro). Apresentaram o nível de leitura 1, 11688 pontos e apresentaram o nível de leitura 2, 4 pontos apenas.
+Somando os valores temos:
+```
+1.012.308 + 11.688 + 4 = 1.024.000 pixels
+```
 
 ### **Fonte de Radiação**
 
