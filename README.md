@@ -166,9 +166,11 @@ Capsula utilizada em detector de fumaça com Amerício-241.
 ![Capsula fechada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAPSULA%20FECHADA.bmp)
 
 
-Capsula aberta. O Amerício-241 emite radiação alfa e gama.
+Capsula aberta. 
 ![Capsula aberta](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAPSULA%20ABERTA.bmp)
 
+
+O Amerício-241 emite radiação alfa e gama.
 ![Equação decaimento americio](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/EQUA%C3%87%C3%83O.png)
 
 
