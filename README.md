@@ -128,23 +128,26 @@ Após o download clique no arquivo ***setup.exe*** para executar a instalação.
 
 
 Clique em ***Avançar***.
-
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%201.png)
 
 Clique em ***Avançar***.
-
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%202.png)
 
 Clique em ***Avançar***.
-
 ![Avançar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%203.png)
 
 Clique em ***Fechar***.
-
 ![Fechar](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/BEM%20VINDO%204.png)
+
+
 
 Na opção ***Aplicativos instalados*** do Windows o programa pode ser removido caso queira.
 ![Aplicativos instalados](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/APLICATIVOS%20INSTALADOS.png)
+
+
+Um atalho é criado na área de trabalho.
+
+![Atalho](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/ATALHO%201.png)
 
 
 
