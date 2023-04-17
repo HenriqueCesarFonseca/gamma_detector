@@ -179,6 +179,13 @@ Somando os valores temos:
 1.012.308 + 11.688 + 4 = 1.024.000 pixels
 ```
 
+
+> Antes de iniciar o software, procure deixar a webcam no escuro.
+>
+> Se uma webcam estiver em uso por outro software ela não será detectada.
+>
+> Um problema (bug) possível de ocorrer é o software informar que uma determinada câmera não está no escuro mesmo ela estando. Esta condição não impede o uso da câmera.
+
 ### **Fonte de Radiação**
 
 Capsula utilizada em detector de fumaça com Amerício-241.
