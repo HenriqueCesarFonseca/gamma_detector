@@ -110,7 +110,7 @@ A fonte de radiação deve ser colocada de frente para o sensor **CMOS** com o c
 ![Furo lata](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%202.bmp)
 
 
-Utilizada uma segunda lata vedada para a entrada de luz.Na segunda lata é cortado uma pequena abertura para a passagem do cabo USB da Webcam.
+Utilizada uma segunda lata vedada para a entrada de luz.Uma pequena abertura permite a passagem do cabo USB da Webcam.
 ![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%204.bmp)
 
 
