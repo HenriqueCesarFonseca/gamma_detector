@@ -86,27 +86,29 @@ O parâmetro **Nível de cinza** corresponde à conversão do padrão **RGB** co
 
 Webcam escolhida com sensor do tipo **CMOS**.
 
-![Webcam escolhida](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20ESCOLHIDA.bmp)
+![Webcam escolhida](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20ESCOLHIDA.jpg)
 
 A Webcam é desmontada para retirar a lente.
 
-![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20DESMONTADA.bmp)
+![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20DESMONTADA.jpg)
 
 É passado fita isolante para evitar curto circuito ao fixar a câmera à lata com furo (furo para o sensor **CMOS**).
 
-![Webcam com fita isolante](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/WEBCAM%20COM%20FITA%20ISOLANTE.bmp)
+![Webcam com fita isolante](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20COM%20FITA%20ISOLANTE.jpg)
 
 
 É feito um furo para expor somente o sensor **CMOS** da Webcam.
-![Montagem 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%201.bmp)
+![Montagem 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%201.bmp)
+
+![Furo lata](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%202.bmp)
 
 A fonte de radiação deve ser colocada de frente para o sensor **CMOS** com o cuidado de evitar danificar o sensor.
 
-![Montagem 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%202.bmp)
+![Montagem 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%203.bmp)
 
 
 Utilizada uma segunda lata vedada para a entrada de luz.
-![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%203.bmp)
+![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%204.bmp)
 
 
 Na segunda lata é cortado uma pequena abertura para a passagem do cabo USB da Webcam.
