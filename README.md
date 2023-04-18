@@ -71,6 +71,7 @@ O arquivo  ***todos_os_pontos_detectador.txt*** - gerado automaticamente ao fina
 Total de pontos detectados: 13
 
 ```
+#
 
 A primeira linha corresponde ao primeiro frame capturado , a segunda linha ao segundo frame e assim por diante.
 
@@ -81,12 +82,6 @@ Desta forma podemos conferir utilizando o programa **PAINT** do Windows que real
 #
 
 O parâmetro **Nível de cinza** corresponde à conversão do padrão **RGB** com diferentes intensidade para **Red**,**Green** e **Blue** convertidas para o padrão **GRAY** com um único nível de intensidade (o que facilita o software executar a busca por um ponto detectado).
-
-#
-#
-#
-
-
 
 
 
