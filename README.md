@@ -88,9 +88,13 @@ Webcam escolhida com sensor do tipo **CMOS**.
 
 ![Webcam escolhida](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20ESCOLHIDA.jpg)
 
-A Webcam é desmontada para retirar a lente.
+A Webcam é desmontada para a retirada da lente.
 
 ![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20DESMONTADA.jpg)
+
+A Webcam é desmontada para a retirada da lente.
+
+![Webcam desmontada](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/SENSOR%20CMOS.jpg)
 
 É passado fita isolante para evitar curto circuito ao fixar a câmera à lata com furo (furo para o sensor **CMOS**).
 
@@ -100,22 +104,18 @@ A Webcam é desmontada para retirar a lente.
 É feito um furo para expor somente o sensor **CMOS** da Webcam.
 ![Montagem 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%201.bmp)
 
-![Furo lata](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%202.bmp)
-
 A fonte de radiação deve ser colocada de frente para o sensor **CMOS** com o cuidado de evitar danificar o sensor.
 
-![Montagem 2](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%203.bmp)
+![Furo lata](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%202.bmp)
 
 
-Utilizada uma segunda lata vedada para a entrada de luz.
+Utilizada uma segunda lata vedada para a entrada de luz.Na segunda lata é cortado uma pequena abertura para a passagem do cabo USB da Webcam.
 ![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%204.bmp)
 
 
-Na segunda lata é cortado uma pequena abertura para a passagem do cabo USB da Webcam.
-![Montagem 4](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%204.bmp)
-
 
 Finalizado a montagem do experimento.
+
 ![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL%20RESIZED%20640%20X%20480.bmp)
 
 
