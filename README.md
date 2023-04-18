@@ -116,7 +116,7 @@ Utilizada uma segunda lata vedada para a entrada de luz.Uma pequena abertura per
 
 
 Finalizado a montagem do experimento.
-![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL%20RESIZED%20640%20X%20480.bmp)
+![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL.jpg)
 
 
  ### **Download e Instalação**
