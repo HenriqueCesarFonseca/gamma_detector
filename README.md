@@ -39,15 +39,18 @@ Os pontos na janela **IMAGEM EM TEMPO REAL** aparecem e desaparecem rapidamente.
 
 ![Ponto bem visível](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/imagem_captada_3.bmp)
 
+#
 
 A cada experimento um novo diretório é criado.
 
 ![Diretórios criados](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DIRETORIO%20COM%20EXPERIMENTOS.png)
 
+#
 Dentro de cada diretório são armazenados todos os frames em que foi detectada algum ponto de radiação.
 
 ![Diretório do experimento](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/DIRETORIO%20DO%20EXPERIMENTO.png)
 
+#
 O arquivo  ***todos_os_pontos_detectador.txt*** - gerado automaticamente ao final do programa - lista as coordenadas de todos os pontos detectados.
 
 ```
@@ -75,8 +78,13 @@ Desta forma podemos conferir utilizando o programa **PAINT** do Windows que real
 
 ![Ponto visto do PAINT](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/PONTO%20VISTO%20PELO%20PAINT%201.bmp)
 
+#
 
 O parâmetro **Nível de cinza** corresponde à conversão do padrão **RGB** com diferentes intensidade para **Red**,**Green** e **Blue** convertidas para o padrão **GRAY** com um único nível de intensidade (o que facilita o software executar a busca por um ponto detectado).
+
+#
+#
+#
 
 
 
