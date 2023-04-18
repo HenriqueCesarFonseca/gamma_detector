@@ -101,22 +101,21 @@ A Webcam é desmontada para a retirada da lente.
 ![Webcam com fita isolante](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/CAMERA%20COM%20FITA%20ISOLANTE.jpg)
 
 
+
 É feito um furo para expor somente o sensor **CMOS** da Webcam.
 ![Montagem 1](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%201.bmp)
 
-A fonte de radiação deve ser colocada de frente para o sensor **CMOS** com o cuidado de evitar danificar o sensor.
 
+A fonte de radiação deve ser colocada de frente para o sensor **CMOS** com o cuidado de evitar danificar o sensor.
 ![Furo lata](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%202.bmp)
 
 
 Utilizada uma segunda lata vedada para a entrada de luz.Na segunda lata é cortado uma pequena abertura para a passagem do cabo USB da Webcam.
-
 ![Montagem 3](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/FURO%20NA%20LATA%20EDITADO%204.bmp)
 
 
 
 Finalizado a montagem do experimento.
-
 ![Montagem final](https://github.com/HenriqueCesarFonseca/gamma_detector/blob/main/Imagens/MONTAGEM%20FINAL%20RESIZED%20640%20X%20480.bmp)
 
 
