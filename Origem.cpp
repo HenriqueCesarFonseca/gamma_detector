@@ -28,7 +28,7 @@ int main() {
 	
 	
 
-	std::cout << "Programa DETECTA RADIACAO iniciando ... \n";
+	//std::cout << "Programa DETECTA RADIACAO iniciando ... \n";
 
 	DR->cria_diretorio_base(diretorio);
 	DR->cria_arquivo_config_se_nao_existir();

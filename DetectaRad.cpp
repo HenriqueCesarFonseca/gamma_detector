@@ -16,7 +16,7 @@ DetectaRad::DetectaRad() {
 		std::cout << "\nERRO: NÃO FOI POSSÍVEL OBTER O DIRETÓRIO" << "\n";
 	}
 	//PATH_DIR_INSTALADO = "C:\\";
-	std::cout << "\nPATH_DIR_INSTALADO = " << PATH_DIR_INSTALADO << "\n";
+	std::cout << "\nDetectaRad instalado em: " << PATH_DIR_INSTALADO << "\n";
 }
 
 
@@ -544,7 +544,7 @@ void DetectaRad::cria_diretorio_base(std::string diretorio)
 		std::cout << "\n Erro ao obter a variável de ambiente do Windows HOMEPATH \n";
 	}
 	else {
-		std::cout << "Diretório Base Criado : " << homepath << std::endl;
+		std::cout << "Diretório Base Criado em:  "  << homepath << std::endl;
 	}
 	
 	this->path_diretorio_base = homepath + diretorio;
@@ -555,7 +555,7 @@ void DetectaRad::cria_diretorio_base(std::string diretorio)
 	}
 	  
 	if (_mkdir(criado) == 0) {
-		std::cout << "\nDiretório: " << path_diretorio_base << "\n";
+		//std::cout << "\nDiretório: " << path_diretorio_base << "\n";
 		this->numero_do_experimento = 01;
 	}
 
@@ -577,7 +577,8 @@ void DetectaRad::cria_diretorio_full()
 		criado[i] = nome_diretorio_full[i];
 	}
 
-	if (_mkdir(criado) == 0) std::cout << "\nDiretório: " << nome_diretorio_full << "\n";
+	if (_mkdir(criado) == 0) std::cout << "Diretório do experimento criado em: " << nome_diretorio_full << "\n";
+	//if (_mkdir(criado) == 0) std::cout << "\n ";
 }
 
 void DetectaRad::seta_nome_do_arquivo_pontos_detectados(std::string nome_arquivo_pontos_detectados)
