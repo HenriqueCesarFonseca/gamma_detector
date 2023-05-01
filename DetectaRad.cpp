@@ -1,9 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "DetectaRad.h"
 #include <iostream>
 #include <fstream>
 #include <direct.h>
 #include <stdlib.h>
 #include <stdio.h>
+
 
 DetectaRad::DetectaRad() {
 	EstruturaConfig.config_limiar_cinza_deteccao = this->limiar_nivel_cinza_para_deteccao;
@@ -537,11 +539,15 @@ void DetectaRad::mostra_variaveis_arq_config()
 
 void DetectaRad::cria_diretorio_base(std::string diretorio)
 {
+	char* homepath = getenv("HOMEPATH");
+	if (homepath == nullptr) {
+		std::cout << "\n Erro ao obter a variável de ambiente do Windows HOMEPATH \n";
+	}
+	else {
+		std::cout << "Diretório Base Criado : " << homepath << std::endl;
+	}
 	
-	//std::string tmp_string(PATH_DIR_INSTALADO); ALTERADO DIA 13-04-23
-	std::string tmp_string("C:\\");
-	
-	this->path_diretorio_base = tmp_string + diretorio;
+	this->path_diretorio_base = homepath + diretorio;
 	int tamanho = std::strlen(path_diretorio_base.c_str()); //int tamanho = std::strlen(diretorio.c_str());
 	char criado[200] = "";
 	for (int i = 0; i < tamanho; i++) {

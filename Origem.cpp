@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <string>
@@ -9,7 +10,6 @@
 
 int main() {
 	system("CLS");
-	system("CD %HOMEPATH%");
 	setlocale(LC_ALL, "Portuguese");
 	DetectaRad* DR = new DetectaRad;
 	//int escolhe_resolucao(int n, int& largura, int& altura, int matriz_resolucoes_detectadas[6][2]);
@@ -79,54 +79,4 @@ int main() {
 	delete DR;
 	return 0;
 }
-/*
-int escolhe_resolucao(int numero_camera, int &largura, int &altura, int matriz_resolucoes_detectadas[6][2]) {
-	char op = 'a';
-	bool b_opcao_valida = true;
-	do {
-		std::cout << "Resoluções possíveis para a webcam " << numero_camera << ":\n";
-		for (int i = 0; i <= 5; i++) {
-			if (matriz_resolucoes_detectadas[i][0] == 0) break;
-			std::cout << i << ")   " << matriz_resolucoes_detectadas[i][0] << " x " << matriz_resolucoes_detectadas[i][1];
-			std::cout << "\n";
-		}
-		std::cout << "Escolha uma resolução: ";
-		std::cin >> op;
-		switch (op)
-		{
-		case '0': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[0][0];
-			altura = matriz_resolucoes_detectadas[0][1];
-			break;
-		case '1': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[1][0];
-			altura = matriz_resolucoes_detectadas[1][1];
-			if (matriz_resolucoes_detectadas[1][0] == 0) b_opcao_valida = false;
-			break;
-		case '2': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[2][0];
-			altura = matriz_resolucoes_detectadas[2][1];
-			if (matriz_resolucoes_detectadas[2][0] == 0) b_opcao_valida = false;
-			break;
-		case '3': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[3][0];
-			altura = matriz_resolucoes_detectadas[3][1];
-			if (matriz_resolucoes_detectadas[3][0] == 0) b_opcao_valida = false;
-			break;
-		case '4': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[4][0];
-			altura = matriz_resolucoes_detectadas[4][1];
-			if (matriz_resolucoes_detectadas[4][0] == 0) b_opcao_valida = false;
-			break;
-		case '5': b_opcao_valida = true;
-			largura = matriz_resolucoes_detectadas[5][0];
-			altura = matriz_resolucoes_detectadas[5][1];
-			if (matriz_resolucoes_detectadas[5][0] == 0) b_opcao_valida = false;
-			break;
-		default: std::cout << "Opção inválida!\n\n";
-			b_opcao_valida = false;
-		}
-	} while (!b_opcao_valida);
-	return 0;
-}
-*/
+
