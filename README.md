@@ -202,7 +202,8 @@ Para finalizar o software é só clicar com o mouse em qualquer das três janela
 Uma vez finalizado o software os diretórios com os resultados estão localizados em:
 
 ```
-C:\DetectaRadiacao
+\Users\nome_do_usuario
+Exemplo: \Users\henri
 ```
 
 > Antes de iniciar o software, procure deixar a webcam no escuro.
